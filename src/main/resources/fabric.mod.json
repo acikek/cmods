@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "combinedmodifiers",
+  "version": "${version}",
+  "name": "Combined Modifiers",
+  "description": "Combines NBT and hard-coded attribute modifiers",
+  "authors": [
+    "acikek"
+  ],
+  "contact": {
+    "repo": "https://github.com/acikek/combined-attributes"
+  },
+  "license": "MIT",
+  "icon": "assets/combinedattributes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.acikek.combinedmodifiers.CombinedModifiers"
+    ]
+  },
+  "mixins": [
+    "combinedmodifiers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
