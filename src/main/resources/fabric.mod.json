@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "combinedmodifiers",
+  "id": "cmods",
   "version": "${version}",
   "name": "Combined Modifiers",
   "description": "Combines NBT and hard-coded attribute modifiers",
@@ -8,18 +8,18 @@
     "acikek"
   ],
   "contact": {
-    "repo": "https://github.com/acikek/combined-attributes"
+    "repo": "https://github.com/acikek/cmods"
   },
   "license": "MIT",
-  "icon": "assets/combinedattributes/icon.png",
+  "icon": "assets/cmods/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.acikek.combinedmodifiers.CombinedModifiers"
+      "com.acikek.cmods.CombinedModifiers"
     ]
   },
   "mixins": [
-    "combinedmodifiers.mixins.json"
+    "cmods.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.13.3",

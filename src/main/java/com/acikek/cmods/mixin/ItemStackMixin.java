@@ -1,4 +1,4 @@
-package com.acikek.combinedmodifiers.mixin;
+package com.acikek.cmods.mixin;
 
 import com.google.common.collect.Multimap;
 import net.minecraft.entity.EquipmentSlot;
