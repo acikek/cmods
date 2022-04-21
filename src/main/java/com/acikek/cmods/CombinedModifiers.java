@@ -10,6 +10,6 @@ public class CombinedModifiers implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Initializing Combined Modifiers");
+        LOGGER.info("Combining the Modifiers...");
     }
 }
