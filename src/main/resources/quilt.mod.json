@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "com.acikek",
+    "id": "cmods",
+    "version": "${version}",
+    "metadata": {
+      "name": "Combined Modifiers",
+      "description": "Combines NBT and hard-coded attribute modifiers",
+      "contributors": {
+        "acikek": "Owner"
+      },
+      "icon": "assets/cmods/icon.png",
+      "license": "MIT"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": "com.acikek.cmods.CombinedModifiers"
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "versions": ">=0.16.0-"
+      },
+      {
+        "id": "quilted_fabric_api",
+        "versions": ">=1.0.0-"
+      },
+      {
+        "id": "minecraft",
+        "versions": ">=1.18.2"
+      }
+    ]
+  },
+  "mixin": "cmods.mixins.json"
+}
